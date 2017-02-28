@@ -1,6 +1,8 @@
-set PATH ~/bin $PATH
-set PATH /opt/vagrant/bin $PATH
-set PATH ~/.local/share/node/bin $PATH
+set -x PATH ~/.rvm/bin ~/bin $PATH
+set -x CLICOLOR_FORCE 1
+set -x GOPATH ~
+set -x UNITYCLOUDOPS "/opt/unity/unitycloud-ops"
+set -x PATH $UNITYCLOUDOPS/bin $PATH
 
 set fish_greeting ""
 setenv EDITOR vim
@@ -17,3 +19,4 @@ function format-json
 end
 
 alias ls=ls++
+rvm default

@@ -1,5 +1,7 @@
 *.swp
+*.swo
 *.patch
 *.iml
 .idea/
 *.sln.ide/
+/tags

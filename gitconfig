@@ -1,6 +1,6 @@
 [user]
     name = Ryan Mendivil
-    email = ryan@nullreff.net
+    email = ryanme@unity3d.com
 [alias]
     meld = /home/ryan/bin/git-meld/git-meld.pl
 [color]
@@ -15,3 +15,7 @@
 	whitespace = cr-at-eol
 [push]
 	default = simple
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
