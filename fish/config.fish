@@ -6,7 +6,6 @@ set PATH ~/.emacs.d/bin $PATH
 set PATH ~/.local/share/miniconda3/bin $PATH
 set BROWSER wslview
 
-ailas g="git"
 alias tf="terraform"
 alias tg="terragrunt"
 

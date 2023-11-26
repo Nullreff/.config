@@ -8,7 +8,7 @@
 [alias]
     s  = status
     d  = diff
-    c  = 'commit -m'
-    ca = 'commit -am'
+    c  = "!git commit -m \"$1\" #"
+    ca = "!git commit -am \"$1\" #"
     p  = push
-    pu = 'push -u origin $(git branch --show-current)'
+    pu = "!git push -u origin $(git branch --show-current)"
