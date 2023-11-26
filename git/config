@@ -8,7 +8,11 @@
 [alias]
     s  = status
     d  = diff
+    l  = log
+    b  = branch
     c  = "!git commit -m \"$1\" #"
     ca = "!git commit -am \"$1\" #"
     p  = push
     pu = "!git push -u origin $(git branch --show-current)"
+    ra = "!git remote add origin \"$1\" #"
+    rs = "!git remote set-url origin \"$1\" #"
