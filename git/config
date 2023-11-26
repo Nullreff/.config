@@ -5,3 +5,10 @@
 	defaultBranch = main
 [core]
 	editor = vim
+[alias]
+    s  = status
+    d  = diff
+    c  = 'commit -m'
+    ca = 'commit -am'
+    p  = push
+    pu = 'push -u origin $(git branch --show-current)'
