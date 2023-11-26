@@ -4,6 +4,10 @@ set PATH ~/.cargo/bin $PATH
 set PATH /snap/bin $PATH
 set PATH ~/.emacs.d/bin $PATH
 set PATH ~/.local/share/miniconda3/bin $PATH
+set BROWSER wslview
+
+alias tf="terraform"
+alias tg="terragrunt"
 
 # Wayland fixes, disable if you're not using it
 set GDK_BACKEND wayland
