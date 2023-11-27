@@ -43,7 +43,7 @@ results = groups.map do |group|
   }
 end
 
-css_uri = 'https://nullreff.net/css/application.css'
+css_uri = 'https://old.nullreff.net/css/application.css'
 css = Net::HTTP.get(URI.parse(css_uri))
 
 time = Time.now
