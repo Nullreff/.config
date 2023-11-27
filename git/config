@@ -6,8 +6,10 @@
 [core]
 	editor = vim
 [alias]
+    a  = add
     s  = status
     d  = diff
+    dc = diff --cached
     l  = log
     b  = branch
     c  = "!git commit -m \"$1\" #"
