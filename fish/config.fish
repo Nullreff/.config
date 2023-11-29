@@ -8,6 +8,7 @@ set BROWSER wslview
 
 alias tf="terraform"
 alias tg="terragrunt"
+alias tfer="terraformer"
 
 # Wayland fixes, disable if you're not using it
 set GDK_BACKEND wayland
