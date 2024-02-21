@@ -1,6 +1,6 @@
 [user]
 	email = git@nullreff.net
-	name = Nullreff
+	name = nullreff
 [init]
 	defaultBranch = main
 [core]
@@ -18,3 +18,7 @@
     pu = "!git push -u origin $(git branch --show-current)"
     ra = "!git remote add origin \"$1\" #"
     rs = "!git remote set-url origin \"$1\" #"
+[includeIf "gitdir:~/src/waterwolfdev/"]
+	path = ~/.config/git/config-ww
+[includeIf "gitdir:~/src/vrchat/"]
+	path = ~/.config/git/config-vrc
